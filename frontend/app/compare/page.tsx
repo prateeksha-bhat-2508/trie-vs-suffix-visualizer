@@ -17,7 +17,7 @@ export default function ComparePage() {
   const [input, setInput] = useState("");
   const [trieData, setTrieData] = useState(null);
   const [suffixData, setSuffixData] = useState(null);
-  const [stats, setStats] = useState(null);
+  const [stats, setStats] = useState<any>(null);
 
   const backend = "http://127.0.0.1:8000";
 
